@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+    "seed": "dotenv -e .env -- node --max-old-space-size=1024 ./node_modules/.bin/ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=local nodemon --host 0.0.0.0",
