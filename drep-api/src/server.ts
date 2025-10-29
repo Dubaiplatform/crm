@@ -44,11 +44,11 @@ app.use(
 
 swaggerDocs(app);
 
-app.get("/healthcheck", (req, res) => {
+app.get("/api/healthcheck", (req, res) => {
   res.send({ status: "ok" });
 });
 
-app.use("/", appRoute);
+app.use("/api", appRoute);
 
 app.use(errorMiddleware);
 
