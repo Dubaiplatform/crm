@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
+import { Navbar } from "@/components/NavbarTemp";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
 import { useMemo } from "react";
 import { Outlet, useParams } from "react-router-dom";
 

@@ -1,8 +1,8 @@
-import { ReusableSidebar } from "@/components/ReusableSideBar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
 import { Outlet } from "react-router-dom";
 import { Index } from "./index/index";
 import { Show } from "./show";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/components/NavbarTemp";
 
 const sections = [
   {

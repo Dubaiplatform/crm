@@ -4,8 +4,8 @@ import { useSearchParams } from "react-router-dom";
 import { useState } from "react";
 
 import { Column } from "@/types/column.type";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
-import { Navbar } from "@/components/Navbar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
+import { Navbar } from "@/components/NavbarTemp";
 import { useGetOffersQuery } from "@/app/services/api";
 import { GetOfferPayload } from "@/types/offer.type";
 // import { useGetOffersQuery } from "@/app/services/api";

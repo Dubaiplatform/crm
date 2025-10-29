@@ -1,5 +1,5 @@
 import { Roles } from "@/constants/roles";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
 import RequireAuth from "@/components/RequireAuth";
 
 enum Paths {

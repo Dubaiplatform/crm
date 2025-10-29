@@ -8,8 +8,8 @@ import { useGetDealsQuery } from "@/app/services/api";
 import { Column } from "@/types/column.type";
 import { getFormattedDate } from "@/utils";
 import { GetDealPayload } from "@/types/deal.type";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
-import { Navbar } from "@/components/Navbar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
+import { Navbar } from "@/components/NavbarTemp";
 
 type Payload = GetDealPayload<{ offer: true }>;
 

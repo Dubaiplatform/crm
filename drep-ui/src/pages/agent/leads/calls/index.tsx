@@ -4,8 +4,8 @@ import { useSearchParams } from "react-router-dom";
 import { useState } from "react";
 
 import { Column } from "@/types/column.type";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
-import { Navbar } from "@/components/Navbar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
+import { Navbar } from "@/components/NavbarTemp";
 import { useGetLeadContactsQuery } from "@/app/services/api";
 import { GetLeadContactPayload } from "@/types/lead-contact.type";
 // import { useGetCallsQuery } from "@/app/services/api";

@@ -13,7 +13,7 @@ import { getFormattedDate } from "@/utils";
 import { CreateUserDialog } from "./dialogs/create-user";
 import { EditUserDialog } from "./dialogs/edit-user";
 import { DeleteUserDialog } from "./dialogs/delete-user";
-import { ReusableSidebar } from "@/components/ReusableSideBar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
 
 const sections = [
   {

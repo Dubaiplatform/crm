@@ -1,4 +1,4 @@
-import { ReusableSidebar } from "@/components/ReusableSideBar";
+import { ReusableSidebar } from "@/components/ReusableSideBarTemp";
 import { Outlet, useParams } from "react-router-dom";
 import { Index } from "./index/index";
 import { Create } from "./create";
@@ -8,7 +8,7 @@ import { PhotoRequests } from "./photo-requests";
 import { ExtensionRequests } from "./extension-requests";
 import { UnpublishRequests } from "./unpublish-requests";
 import { useMemo } from "react";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/components/NavbarTemp";
 
 const Layout = () => {
   const { type } = useParams();
